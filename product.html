@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="hero">
+  
+        <div class="header" style="height: 30%;">          <!-- header of the website -->
+          <div class="navbar">
+              <a href="index.html">
+          <img class="logo" src="assets/images/logo.svg" alt="logo"></a>  <!-- the logo-->
+          <nav>                                                       <!-- navigation bar-->
+            <ul class="dplist">
+              <li><div class="dropdown">                     <!--Content for product dropdown-->
+                  <button onclick="myFunction(this)"  class="dbtn">Product
+                  <img class="arrow" src="assets/images/icon-arrow-light.svg"></button>
+                  <ul class="dDContent" id="myDropdown">
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#market">Market place</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#features">Intergrations</a></li>
+                  </ul>
+              </div></li>
+      
+              <li><div class="dropdown">                     <!--Content for company dropdown-->
+                <button onclick="myFunction(this)"  class="dbtn">Company
+                  <img class="arrow" src="assets/images/icon-arrow-light.svg"></button>
+                <ul class="dDContent" id="myDropdown">
+                  <li><a href="company.html #about">About</a></li>
+                  <li><a href="company.html #team">Team</a></li>
+                  <li><a href="company.html #blog">Blog</a></li>
+                  <li><a href="company.html #careers">Careers</a></li>
+                </ul>
+            </div></li>
+      
+            <li><div class="dropdown">                       <!--Content for connect dropdown-->
+              <button onclick="myFunction(this)"  class="dbtn">Connect
+                <img class="arrow" src="assets/images/icon-arrow-light.svg" ></button>
+              <ul class="dDContent" id="myDropdown">  
+                <li><a href="connect.html #contact">Contact</a></li>
+                <li><a href="connect.html #newsletter">Newsletter</a></li>
+                <li><a href="connect.html">Linkedin</a></li>
+              </ul>
+          </div></li>
+            </ul>
+            <ul class="btns">
+              <li><button class="btn1">Login</button></li>
+              <li><button class="btn2">Sign Up</button></li>
+            </ul>
+          </nav>
+          <div class="menubtn">
+            <button class="hamburger"><img src="assets/images/icon-hamburger.svg" alt=""></button>
+          </div>
+        </div>
+      
+        <div class="int">
+          <img class="intoImg" src="assets/images/bg-pattern-intro-desktop.svg" alt="bg-pattern-intro-desktop"><!--the background image-->
+        </div>  
+      
+          <div class="intro">
+            <h2>Product</h2>
+          </div>
+          
+        </div> <!--Header end-->
+
+        <div class="main">
+        <div class="overview" id="overview">
+            <div class="overviewDetail">
+                <h3>Overview.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Sit earum dolorum ducimus consectetur, aspernatur consequatur voluptatum adipisci. 
+                    Dolorum, suscipit a voluptates ab nostrum sequi facilis consequatur nulla eligendi non animi? <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Sit earum dolorum ducimus consectetur, aspernatur consequatur voluptatum adipisci. 
+                    Dolorum, suscipit a voluptates ab nostrum sequi facilis consequatur nulla eligendi non animi? <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Sit earum dolorum ducimus consectetur, aspernatur consequatur voluptatum adipisci. 
+                    Dolorum, suscipit a voluptates ab nostrum sequi facilis consequatur nulla eligendi non animi? 
+                </p>
+                
+            </div>
+            <div class="circle">
+                <img src="assets/images/bg-pattern-circles.svg" alt="bg-pattern-circles">
+              </div>
+        </div>
+      
+        <div class="pricing" id="pricing">
+            <h3>Our Plans.</h3>
+            <div class="priceList">
+            <div class="basic">
+                <h4>Basic</h4>
+                <h5>R0</h5>
+                <p>Per month</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati quam cumque, accusamus omnis neque expedita optio. Ullam, porro quo molestias beatae ipsam suscipit ipsum atque. Vero asperiores sed rerum quisquam?</p>
+                <button>Get started</button>
+            </div>
+            <div class="basic">
+                <h4>Standard</h4>
+                <h5>R150</h5>
+                <p>Per month</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati quam cumque, accusamus omnis neque expedita optio. Ullam, porro quo molestias beatae ipsam suscipit ipsum atque. Vero asperiores sed rerum quisquam?</p>
+                <button>Get started</button>
+            </div>
+            <div class="basic">
+                <h4>Premium</h4>
+                <h5>R300</h5>
+                <p>Per month</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati quam cumque, accusamus omnis neque expedita optio. Ullam, porro quo molestias beatae ipsam suscipit ipsum atque. Vero asperiores sed rerum quisquam?</p>
+                <button>Get started</button>
+                </div>
+                </div>
+            </div>
+
+            <div class="market" id="market">
+                <h3>Marketplace.</h3>
+                <div class="imgs">
+                    <div class="prod">
+                        <img src="assets/images/illustration-editor-desktop.svg" alt="editor">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis eum asperiores explicabo commodi nihil facere, dolore, at omnis esse quaerat minus consequuntur porro nobis odit, saepe fugit. Vero, laboriosam.</p>
+                      </div>
+                      <div class="prod">
+                        <img src="assets/images/illustration-laptop-desktop.svg" alt="Laptop">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis eum asperiores explicabo commodi nihil facere, dolore, at omnis esse quaerat minus consequuntur porro nobis odit, saepe fugit. Vero, laboriosam.</p>
+                      </div>
+                      <div class="prod">
+                        <div class="prod3img">
+                            <img src="assets/images/illustration-phones.svg" alt="Phones">
+                          </div>
+                          <div class="prod3bg">
+                            <img src="assets/images/bg-pattern-circles.svg" alt="bg-pattern-circles">
+                          </div>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis eum asperiores explicabo commodi nihil facere, dolore, at omnis esse quaerat minus consequuntur porro nobis odit, saepe fugit. Vero, laboriosam.</p>
+                      </div>
+                </div>
+                
+            </div>
+
+            
+            <div class="overview" id="features">
+                <div class="overviewDetail">
+                    <h3>Features.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sit earum dolorum ducimus consectetur, aspernatur consequatur voluptatum adipisci. 
+                        Dolorum, suscipit a voluptates ab nostrum sequi facilis consequatur nulla eligendi non animi? <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sit earum dolorum ducimus consectetur, aspernatur consequatur voluptatum adipisci. 
+                        Dolorum, suscipit a voluptates ab nostrum sequi facilis consequatur nulla eligendi non animi? <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sit earum dolorum ducimus consectetur, aspernatur consequatur voluptatum adipisci. 
+                        Dolorum, suscipit a voluptates ab nostrum sequi facilis consequatur nulla eligendi non animi? 
+                    </p>
+                    
+                </div>
+                <div class="circle">
+                    <img src="assets/images/bg-pattern-circles.svg" alt="bg-pattern-circles">
+                  </div>
+            </div>
+          
+        </div>
+      
+          <div class="footer">
+            <div class="bottomnav">
+              <div class="bottomlogo" >
+                <a href="index.html"><img src="assets/images/logo.svg" alt="logo"></a>  <!-- the logo-->
+            </div>
+              <div class="nav">                   <!-- navigation bar-->
+                <ul class="bottomlist">
+                    <li><div class="d">                     <!--Content for product dropdown-->
+                        <button class="bbtn">Product</button>
+                        <ul class="Content" >
+                          <li><a href="#overview">Overview</a></li>
+                          <li><a href="#pricing">Pricing</a></li>
+                          <li><a href="#market">Market place</a></li>
+                          <li><a href="#features">Features</a></li>
+                          <li><a href="#features">Intergrations</a></li>
+                        </ul>
+                    </div></li>
+            
+                    <li><div class="d">                     <!--Content for company dropdown-->
+                      <button class="bbtn">Company</button>
+                      <ul class="Content" >
+                        <li><a href="company.html #about">About</a></li>
+                        <li><a href="company.html #team">Team</a></li>
+                        <li><a href="company.html #blog">Blog</a></li>
+                        <li><a href="company.html #careers">Careers</a></li>
+                      </ul>
+                  </div></li>
+            
+                  <li><div class="d">                       <!--Content for connect dropdown-->
+                    <button  class="bbtn">Connect</button>
+                    <ul class="Content">  
+                      <li><a href="connect.html #contact">Contact</a></li>
+                      <li><a href="connect.html #newsletter">Newsletter</a></li>
+                      <li><a href="connect.html">Linkedin</a></li>
+                    </ul>
+                </div></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+
+</body>
+<script src="index.js"></script>
+</html>

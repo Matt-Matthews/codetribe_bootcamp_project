@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | [Blogr]</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="hero">
+  
+  <div class="header">          <!-- header of the website -->
+    <div class="navbar">
+    <img class="logo" src="assets/images/logo.svg" alt="logo">  <!-- the logo-->
+    <nav>                                                       <!-- navigation bar-->
+      <ul class="dplist">
+        <li><div class="dropdown">                     <!--Content for product dropdown-->
+            <button onclick="myFunction(this)"  class="dbtn">Product
+            <img class="arrow" src="assets/images/icon-arrow-light.svg"></button>
+            <ul class="dDContent" id="myDropdown">
+              <li><a href="product.html #overview">Overview</a></li>
+              <li><a href="product.html #pricing">Pricing</a></li>
+              <li><a href="product.html #market">Market place</a></li>
+              <li><a href="product.html #features">Features</a></li>
+              <li><a href="product.html #features">Intergrations</a></li>
+            </ul>
+        </div></li>
+
+        <li><div class="dropdown">                     <!--Content for company dropdown-->
+          <button onclick="myFunction(this)"  class="dbtn">Company
+            <img class="arrow" src="assets/images/icon-arrow-light.svg"></button>
+          <ul class="dDContent" id="myDropdown">
+            <li><a href="company.html #about">About</a></li>
+            <li><a href="company.html #team">Team</a></li>
+            <li><a href="company.html #blog">Blog</a></li>
+            <li><a href="company.html #careers">Careers</a></li>
+          </ul>
+      </div></li>
+
+      <li><div class="dropdown">                       <!--Content for connect dropdown-->
+        <button onclick="myFunction(this)"  class="dbtn">Connect
+          <img class="arrow" src="assets/images/icon-arrow-light.svg" ></button>
+        <ul class="dDContent" id="myDropdown">  
+          <li><a href="connect.html #contact">Contact</a></li>
+          <li><a href="connect.html #newsletter">Newsletter</a></li>
+          <li><a href="connect.html">Linkedin</a></li>
+        </ul>
+    </div></li>
+      </ul>
+      <ul class="btns">
+        <li><button class="btn1">Login</button></li>
+        <li><button class="btn2">Sign Up</button></li>
+      </ul>
+      
+    </nav>
+    <div class="menubtn">
+      <button class="hamburger"><img src="assets/images/icon-hamburger.svg" alt=""></button>
+    </div>
+  </div>
+
+  <div class="int">
+    <img class="intoImg" src="assets/images/bg-pattern-intro-desktop.svg" alt="bg-pattern-intro-desktop"><!--the background image-->
+  </div>  
+
+    <div class="intro">
+      <h2 id="indexH1"></h2>
+      <p id="indexP1"></p>
+      <ul >
+        <li><button class="btn2">Start for free</button></li>
+        <li><button class="Ibtn2">learn more</button></li>
+      </ul>
+    </div>
+    
+  </div> <!--Header end-->
+
+
+  <div class="main">
+  
+    <div class="h3">
+      <h3 id="indexH2"></h3>
+    </div>
+    <div class="editRow">
+    <div class="intParagraphs">
+      <h4 id="indexH3"></h4>
+      <p>Blogr features an exceeding intuitive interface which lets you focus 
+          on one thing: creating content. the editor supports management of 
+          multiple blogs and allows easy manipulation of embeds such as images,
+          videos, and markdown. Extensibility with plugs and themes provide 
+          easy ways to add functionality or change the looks of a blog.</p>
+        <h4>Robust content management</h4>
+        <p>Flexible content management enables users to easly move through
+            posts. Increase the usability of your blog by adding customized
+            categories, sections, format, or flow. With this functionality, you`re in
+            full control.</p>
+    </div>
+
+    <div class="editor">
+      <img src="assets/images/illustration-editor-desktop.svg" alt="editor">
+    </div>
+    </div>
+    
+    
+    <div class="phones" id="phone">
+      <div class="phonePar">
+        <h3>State of the art infrustructure</h3>
+        <p>With reliability and speed in the mind, worldwide data centers provide the
+          backbone for ultra-fast connectivity. This ensures your site will load
+          instantly, no matter where your readers are, keep your site
+          competitive.</p>
+      </div>
+      <div class="phoneimg">
+        <img src="assets/images/illustration-phones.svg" alt="Phones">
+      </div>
+      <div class="bg-circles">
+        <img src="assets/images/bg-pattern-circles.svg" alt="bg-pattern-circles">
+      </div>
+      
+    </div>
+      
+    </div>
+    <div class="laptop">
+      <div class="laptopImg">
+        <img src="assets/images/illustration-laptop-desktop.svg" alt="Laptop">
+      </div>
+      <div class="laptopPar">
+        <h4>Free, open, simple</h4>
+        <p>Blogr is a fre and open source application backed by a large
+          community of helpful developers. it supports features such as code
+          syntax highlighting, Rss feeds, social media intergration, third-party 
+          commenting tools, and works seamlessly with Google analytics. The
+          architecture is clean and is relatively easy to learn.</p>
+          <h4>Powerful tooling</h4>
+          <p>Batteries included. We built a simple and straightforward CLI tool that
+            makes customization and deployment a breeze, but capable of
+            producing even the most complicated sites.</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="bottomnav">
+        <div class="bottomlogo" >
+        <img src="assets/images/logo.svg" alt="logo">  <!-- the logo-->
+      </div>
+        <div class="nav">                   <!-- navigation bar-->
+          <ul class="bottomlist">
+            <li><div class="d">                     <!--Content for product dropdown-->
+                <button class="bbtn">Product</button>
+                <ul class="Content" >
+                  <li><a href="product.html #overview">Overview</a></li>
+                  <li><a href="product.html #pricing">Pricing</a></li>
+                  <li><a href="product.html #market">Market place</a></li>
+                  <li><a href="product.html #features">Features</a></li>
+                  <li><a href="product.html #features">Intergrations</a></li>
+                </ul>
+            </div></li>
+   
+            <li><div class="d">                     <!--Content for company dropdown-->
+              <button class="bbtn">Company</button>
+              <ul class="Content" >
+                <li><a href="company.html #about">About</a></li>
+                <li><a href="company.html #team">Team</a></li>
+                <li><a href="company.html #blog">Blog</a></li>
+                <li><a href="company.html #careers">Careers</a></li>
+              </ul>
+          </div></li>
+    
+          <li><div class="d">                       <!--Content for connect dropdown-->
+            <button  class="bbtn">Connect</button>
+            <ul class="Content">  
+              <li><a href="connect.html #contact">Contact</a></li>
+              <li><a href="connect.html #newsletter">Newsletter</a></li>
+              <li><a href="connect.html">Linkedin</a></li>
+            </ul>
+        </div></li>
+          </ul>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Paku Mathews</a>.
+      </div>
+    </div>
+ 
+
+    
+</div>
+
+</body>
+
+<script src="index.js"></script>
+
+</html>
